@@ -1,12 +1,10 @@
-# svg.pathmorphing.js
+# svg.textmorphing.js
 
 A plugin for the [svgjs](https://github.com/wout/svg.js) library to enable text morphing / animation
 
 In order to morph text, we have to convert the text to paths.
 
-So at first we need an svg-font.
-
-You can load this font like so:
+So at first we need to load an svg-font which holds the path definition for every glyph:
 
 ```javascript
 
