@@ -1,0 +1,28 @@
+{
+  "name": "svg.textmorph.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Fuzzyma/svg.textmorphing.js",
+  "authors": [
+    "Ulrich-Matthias Schäfer"
+  ],
+  "description": "Enables textmorphing / textanimation in svg.js",
+  "main": [
+    "./dist/svg.textmorph.js"
+  ],
+  "keywords": [
+    "svg.js",
+    "textmorphing",
+    "animation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "svg.js":"^2.1.1"
+  }
+}
