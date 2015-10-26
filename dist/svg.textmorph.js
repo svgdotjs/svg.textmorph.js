@@ -1,4 +1,4 @@
-/*! svg.textmorph.js - v0.1.0 - 2015-10-23
+/*! svg.textmorph.js - v0.1.0 - 2015-10-26
 * Copyright (c) 2015 Ulrich-Matthias Schäfer; Licensed MIT */
 
 ;(function () {
@@ -281,9 +281,9 @@ SVG.extend(SVG.FX, {
         var scale = this.remember('font').scale
 
         if(!bbox.width || !bbox.height){
-          this.glyphs[index].move(0, -(box.y + box.height/2)*scale)
+          this.glyphs[index].move(0, -box.height/2)
         }else if(!box.height || !box.width){
-          pathArray.move(0,-bbox.cy * scale)
+          pathArray.move(0,-bbox.height/2)
         }
 
         // update glyph representation

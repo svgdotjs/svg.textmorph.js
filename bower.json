@@ -23,6 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "svg.js":"^2.1.1"
+    "svg.js":"^2.1.1",
+    "svg.pathmorphing.js":"^0.1.0"
   }
 }

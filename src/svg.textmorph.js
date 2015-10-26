@@ -277,9 +277,9 @@ SVG.extend(SVG.FX, {
         var scale = this.remember('font').scale
 
         if(!bbox.width || !bbox.height){
-          this.glyphs[index].move(0, -(box.y + box.height/2)*scale)
+          this.glyphs[index].move(0, -box.height/2)
         }else if(!box.height || !box.width){
-          pathArray.move(0,-bbox.cy * scale)
+          pathArray.move(0,-bbox.height/2)
         }
 
         // update glyph representation

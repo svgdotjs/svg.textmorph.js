@@ -1,6 +1,7 @@
 # svg.textmorphing.js
 
-A plugin for the [svgjs](https://github.com/wout/svg.js) library to enable text morphing / animation
+A plugin for the [svgjs](https://github.com/wout/svg.js) library to enable text morphing / animation.
+This plugin depends on [svg.pathmorphing.js](https://github.com/fuzzyma/svg.pathmorphing.js).
 
 In order to morph text, we have to convert the text to paths.
 
@@ -40,4 +41,4 @@ new SVG.SVGFont('myFont.svg', function(){
 ```
 
 ## Dependencies
-This module requires svg.js >= v2.1.1
+This module requires svg.js >= v2.1.1 and svg.pathmorphing.js >= 0.1.0
