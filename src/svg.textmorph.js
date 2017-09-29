@@ -27,7 +27,7 @@ SVG.SVGFont = SVG.invent({
 
   create: function(source, cb, lazy, undefined){
 
-    if(typeof cb == 'boolen'){
+    if(typeof cb == 'boolean'){
       lazy = cb;
       cb = function(){}
     }else{
