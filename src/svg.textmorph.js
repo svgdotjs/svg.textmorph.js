@@ -53,7 +53,7 @@ SVG.SVGFont = SVG.invent({
     }.bind(this)
 
     try{
-      fontLoadedCb(parseXML(source))
+      fontLoadedCb(parseXML(source), cb)
     }catch(e){
       node = document.getElementById(source)
       node ? fontLoadedCb(node) : loadFont(source, function(node){  fontLoadedCb(node, cb)  })
